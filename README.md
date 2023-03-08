@@ -1,5 +1,25 @@
 # Cobinatorial-
-VLSI SOLVER
+Very large-scale integration (VLSI) is the process of creating an integrated circuit by combining millions 
+or billions of transistors onto a single chip. A typical example is the smartphone. The modern trend 
+of shrinking transistors sizes, allowing engineers to fit more and more transistors into the same area 
+of silicon, has pushed the integration of more and more functions of cellphone circuitry into a single 
+silicon plate. This enables the modern cellphone to mature into a powerful tool that shrank from the 
+size of a large brick-sized unit to a device small enough to comfortably carry in a pocket or purse, with 
+a video camera, touchscreen and other advanced features.
+We will describe in this report our approach to design the VLSI of the circuits defining their electrical 
+device: given a fixed-width plate and a list of rectangular circuits, decide how to place them on the 
+plate so that the length of the final device is minimized, therefore improving its portability.
+
+this Solver , it was based on 4 Different PRocedure 
+1-Constraint Promgraming
+2-SAT Model
+3-SMT Model 
+4-MIT Model
+
+
+
+
+
 CP:
 
 This code uses the Python3 "minizinc" module. It can be installed using "pip3 install minizinc" or "snap install minizinc --classic"; further details here: https://minizinc-python.readthedocs.io/en/latest/getting_started.html
