@@ -16,7 +16,7 @@ Set DISP to False to avoid svg generation(DrawSVG).
 
 =====================================================
 
-**SAT MODEL **
+SAT MODEL
 This code use the z3 solver  that can be installed using:
 pip3 install z3-solver
 =====================================================
