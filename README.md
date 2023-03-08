@@ -1,4 +1,4 @@
-# Cobinatorial-
+# Combinatorial Decision Making and Optimization
 Very large-scale integration (VLSI) is the process of creating an integrated circuit by combining millions 
 or billions of transistors onto a single chip. A typical example is the smartphone. The modern trend 
 of shrinking transistors sizes, allowing engineers to fit more and more transistors into the same area 
