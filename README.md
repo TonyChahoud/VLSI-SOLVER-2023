@@ -35,15 +35,9 @@ Some parameters can be set in the "commons.py" file in the root directory.
 Solutions are generated in instances/solutions.
 
 Set DISP to False to avoid svg generation(DrawSVG).
-
-=====================================================
-
 SAT MODEL
 This code use the z3 solver  that can be installed using:
 pip3 install z3-solver
-=====================================================
-Name: z3-solver
-=====================================================
 The aim is to place some blocks (given width and height) in a rectangle (silicon chip), minimizing its height.
 Given a file in the following format:
 -maximum width of the rectangle
@@ -54,19 +48,18 @@ To solve instances:
 python main.py <model_name> <instance_path> <dest_path>
 2 solvers:-SAT (sat without roration)
           -SATrot (sat with rotation)
-=====================================================
+
 the solvers return:
 maximum width and height of the rectangle
 number of blocks
 output of each instance is saved as txt.file in the 2 Files:
   1-SAToutput (without rotation)
   2-SAToutRot (with Rotation)
-=====================================================
+
 The SAT version can be launched just by executuing(run) the python notebook through jupyter.
-=====================================================
+
 Please check the full REPORT for more details about SAT model in solving the VLSI problem
 
-=====================================================
 
 SMT + MIP:
 
